@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    height: 4.5em;
+    border-radius: 100%;
+}
+.navbarRight{
+    display: flex;
+    gap: 1.5em;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+.navbarTitle:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+   .navbarRight{
+    font-size: 1.5em;
+   }
+   .logo{
+    height: 3em;
+   }
+   .navbar{
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 3em;
+}
+  }
+@media only screen and (max-width: 780px) {
+   .navbar{
+   display: none;
+}
+  }
