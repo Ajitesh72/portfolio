@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import "../styles/home.css";
 import Navbar from "../components/navbar";
 import Hamburger from "../components/hamburger";
+import Me from "../components/me";
+import Works from "../components/works";
 
 function Home() {
   return (
@@ -17,13 +19,14 @@ function Home() {
       <Navbar/>
       <Hamburger/>
       </div>
-      <div className="one">
-
+      <div className="one" id="why-me">
+      <Me/>
       </div>
-      <div className="two">
-
+      <div className="two" id="my-work">
+      <Works/>
       </div>
-      <div className="three">
+      <div className="three" id="contact">
+        CONTACT
 
       </div>
     </motion.div>

@@ -4,7 +4,8 @@
     /* margin-top: 3em; */
 }
 .one{
-    height: 86vh;
+    /* height: 86vh; */
+    height: 100vh;
     background-color: rgb(0, 0, 0);
 }
 .two{
