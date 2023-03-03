@@ -20,7 +20,7 @@ function Loading() {
     transition={{ duration: 3 }}
     className="loading">
       <div className="beforeLoad">
-        <img src={mygif} alt="" width={500} style={{ borderRadius: "90" }} />
+        <img src={mygif} alt="" width={500} style={{ borderRadius: "90" }}  className="loadingimg"/>
       </div>
     </motion.div>
   );

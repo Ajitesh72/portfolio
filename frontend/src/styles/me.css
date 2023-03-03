@@ -1,0 +1,14 @@
+.meImg{
+    height: 100vh;
+}
+.meMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     color: blue;
+}
+.meRight{
+    font-size: 1.5em;
+    margin-right: 3em;
+    
+}
