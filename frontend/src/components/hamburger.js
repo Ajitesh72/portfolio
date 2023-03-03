@@ -23,22 +23,19 @@ function Hamburger() {
         <div><img src={logo} alt="" className="logo"/></div>
  
         <div className="hamburgerRight">
-         <div>
+         <div className="hamburgerMain">
             
-         </div>
-        {/* <p style={{color:"black"}}>hello</p> */}
-         {!flip&&<div style={{color:"black"}} onClick={()=>{setFlip(!flip)}}><AiOutlineMenu size={55}/></div>}
+         
+         {!flip&&<div style={{color:"black"}} onClick={()=>{setFlip(!flip)}}><AiOutlineMenu size={55} color="white"/></div>}
          {flip&&<div style={{color:"black"}} onClick={()=>{setFlip(!flip)}}><MdOutlineCancel color="red" size={55}/></div>}
-         
-         
-   
+         </div>
         </div>
        
       </motion.div>
       {flip&&<div className="hamburgerBody">
-            <div className="hamburgerTitle" onClick={()=>{setFirst(true);setSecond(false);setThird(false);setFlip(false)}} style={{color:first?"blue":"black"}}>WHY ME?</div>
-          <div className="hamburgerTitle" onClick={()=>{setSecond(true);setFirst(false);setThird(false);setFlip(false)}} style={{color:second?"blue":"black"}}>MY WORK</div>
-          <div className="hamburgerTitle" onClick={()=>{setThird(true);setFirst(false);setSecond(false);setFlip(false)}} style={{color:third?"blue":"black"}}>CONTACT ME!</div>
+            <div className="hamburgerTitle" onClick={()=>{setFirst(true);setSecond(false);setThird(false);setFlip(false)}} style={{color:first?"blue":"white"}}>WHY ME?</div>
+          <div className="hamburgerTitle" onClick={()=>{setSecond(true);setFirst(false);setThird(false);setFlip(false)}} style={{color:second?"blue":"white"}}>MY WORK</div>
+          <div className="hamburgerTitle" onClick={()=>{setThird(true);setFirst(false);setSecond(false);setFlip(false)}} style={{color:third?"blue":"white"}}>CONTACT ME!</div>
 
          </div>}
     </motion.div>

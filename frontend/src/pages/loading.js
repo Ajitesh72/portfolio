@@ -2,8 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import {motion} from "framer-motion"
 import "../styles/loading.css";
-// import mygif from "../images/trial2.gif";
-import mygif from "../images/200.webp";
+import mygif from "../images/loading.webp";
 
 function Loading() {
   let navigate = useNavigate();
@@ -12,7 +11,7 @@ function Loading() {
     setTimeout(() => {
       navigate("/home")
     }, 6500);
-  }, []);
+  }, [navigate]);
   return (
     <motion.div
     initial={{ opacity: 0 }}

@@ -13,8 +13,19 @@ function Home() {
       transition={{ duration: 3 }}
       className="home"
     >
+      <div className="nav">
       <Navbar/>
       <Hamburger/>
+      </div>
+      <div className="one">
+
+      </div>
+      <div className="two">
+
+      </div>
+      <div className="three">
+
+      </div>
     </motion.div>
   );
 }

@@ -1,1 +1,17 @@
-
+.nav{
+    position: sticky;
+    top: 3em;
+    /* margin-top: 3em; */
+}
+.one{
+    height: 86vh;
+    background-color: rgb(0, 0, 0);
+}
+.two{
+    height: 102vh;
+    background-color: rgb(0, 255, 170);
+}
+.three{
+    height: 100vh;
+    background-color: rgb(204, 217, 255);
+}

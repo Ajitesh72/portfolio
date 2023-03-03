@@ -32,7 +32,9 @@
 }
   }
 @media only screen and (max-width: 780px) {
+    
     .hamburger{
+        
         display: flex;
         justify-content: space-between;
         margin-left: 2em;
