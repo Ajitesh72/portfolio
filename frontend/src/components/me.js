@@ -6,6 +6,8 @@ import "../styles/me.css"
 
 function Me() {
   return (
+    <div>
+
     <div className="meMain" >
         <div>
         <img src={homePic} alt="" className="meImg"></img>
@@ -17,7 +19,16 @@ function Me() {
             YOU FOUND YOUR GUY!
 
         </div>
+       
     </div>
+    <div className="meBottom">
+            <div className="meBottom-content">NEED A DEVELOPER WHO IS A PART TIME DESIGNER?</div>
+            <br/>
+            <div className="meBottom-content">YOU FOUND YOUR GUY!</div>
+
+        </div>
+    </div>
+    
   );
 }
 
