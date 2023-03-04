@@ -16,18 +16,17 @@ function Home() {
       className="home"
     >
       <div className="nav">
-      <Navbar/>
-      <Hamburger/>
+        <Navbar />
+        <Hamburger />
       </div>
       <div className="one" id="why-me">
-      <Me/>
+        <Me />
       </div>
       <div className="two" id="my-work">
-      <Works/>
+        <Works />
       </div>
       <div className="three" id="contact">
         CONTACT
-
       </div>
     </motion.div>
   );

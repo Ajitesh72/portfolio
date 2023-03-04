@@ -1,0 +1,108 @@
+.works{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 75%; */
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 10em;
+}
+.right{
+    padding: 2%;
+    background-color: rgb(0, 170, 255);
+}
+.right:hover{
+cursor: pointer;
+background-color: rgb(1, 125, 187);
+}
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 3em;
+}
+.projectImage{
+    display: flex;
+    justify-content: center;
+    /* margin-left:50em ; */
+   }
+   .projDesc{
+    margin-left: 2em;
+    margin-right: 2em;
+   }
+   .proj-img{
+    border-radius: 3em;
+   }
+   .proj-img:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 519px) {
+    .proj-img{
+        width: 22em;
+        height: 24em;
+    }
+    .projDesc{
+        margin-left: 1em;
+        margin-right: 1em;
+       }
+ }
+@media only screen and (max-width: 470px) {
+    .proj-img{
+        width: 18em;
+    }
+ }
+@media only screen and (max-width: 414px) {
+    /* .projectImage{
+        height: 15em;
+       } */
+    /* .proj-img{
+        width: 15em;
+        height: 15em;
+    } */
+    .projDesc{
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0;
+        font-size:0.8em ;
+       }
+ }
+@media only screen and (max-width: 396px) {
+    /* .projectImage{
+        height: 15em;
+       } */
+    .proj-img{
+        width: 13em;
+        height: 19em;
+    }
+    .projDesc{
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0;
+        font-size:0.8em ;
+       }
+ }
+@media only screen and (max-width: 322px) {
+    /* .projectImage{
+        height: 15em;
+       } */
+    .proj-img{
+        width: 11em;
+        height: 19em;
+    }
+    .projDesc{
+        font-size:0.8em ;
+       }
+ }
+@media only screen and (max-width: 302px) {
+    /* .projectImage{
+        height: 15em;
+       } */
+    .proj-img{
+        width: 9em;
+        height: 16em;
+    }
+    .projDesc{
+        font-size:0.7em ;
+       }
+ }
