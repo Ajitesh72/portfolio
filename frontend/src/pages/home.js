@@ -25,6 +25,9 @@ function Home() {
       <div className="two" id="my-work">
         <Works />
       </div>
+      <div className="four" id="experience">
+        EXPERIENCE
+      </div>
       <div className="three" id="contact">
         CONTACT
       </div>

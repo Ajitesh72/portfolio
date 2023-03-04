@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import "../styles/works.css";
 import homePic from "../images/boy.avif";
 import Pic from "../images/man.avif";
-import { projectList } from "./workpic";
 import { AiOutlineDoubleLeft, AiOutlineDoubleRight } from "react-icons/ai";
 
 function Works() {
@@ -22,15 +21,9 @@ function Works() {
       description:
         "Duis at tellus vitae velit aliquet varius. Fusce luctus libero et ligula tristique lobortis. Vestibulum eu placerat risus, eu semper augue. Integer at purus sit amet elit pretium viverra. Suspendisse id fringilla nibh, nec dictum urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. ",
     },
-    {
-      title: "Higher Than The Stars",
-      image: homePic,
-      description:
-        "Praesent quis congue nisi. Vivamus dapibus suscipit magna at imperdiet. Maecenas augue tortor, consequat vitae lacus id, pharetra tempor mauris. Suspendisse sodales commodo erat, non imperdiet nisl scelerisque at. Nulla porttitor gravida diam, in ornare ipsum accumsan bibendum. Morbi ut ante metus. Proin rhoncus magna lectus, nec consequat augue ultricies eu.",
-    },
   ];
   function changeRight() {
-    if (id === 2) {
+    if (id === 1) {
       setId(0);
     } else {
       setId(id + 1);
@@ -38,7 +31,7 @@ function Works() {
   }
   function changeLeft() {
     if (id === 0) {
-      setId(2);
+      setId(1);
     } else {
       setId(id - 1);
     }
