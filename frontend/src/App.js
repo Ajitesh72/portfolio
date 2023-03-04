@@ -1,7 +1,7 @@
 import './App.css';
 import Loading from './pages/loading'
 import Home from './pages/home'
-import { Route, Routes,BrowserRouter } from "react-router-dom";
+import { Route, Routes,BrowserRouter,HashRouter } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -9,13 +9,14 @@ function App() {
     <div className="App">
       <AnimatePresence>
 
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
+      <HashRouter>
      <Routes>
         <Route path="/" element={<Loading/>} />
         <Route path="/home" element={<Home/>} />
         <Route path="/*" element={<h1>PAGE NOT FOUND</h1>} />
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
       </AnimatePresence>
     </div>
   );
