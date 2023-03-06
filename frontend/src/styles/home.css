@@ -22,11 +22,12 @@
 }
 .four{
     height: 100vh;
-    /* background-color: rgb(247, 28, 72); */
     background-color:  rgb(130, 0, 117);;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
+}
+.five{
+    height: 50vh;
+    background-color:  rgb(0, 0, 0);
+    color:whitesmoke;
 }
 @media only screen and (max-width: 680px) {
     

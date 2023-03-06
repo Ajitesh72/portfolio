@@ -6,6 +6,8 @@ import Hamburger from "../components/hamburger";
 import Me from "../components/me";
 import Works from "../components/works";
 import Experience from "../components/experience"
+import Contact from "../components/contact";
+import Footer from "../components/footer";
 
 function Home() {
   return (
@@ -30,7 +32,10 @@ function Home() {
         <Experience/>
       </div>
       <div className="three" id="contact">
-        CONTACT
+        <Contact/>
+      </div>
+      <div className="five" >
+        <Footer/>
       </div>
     </motion.div>
   );

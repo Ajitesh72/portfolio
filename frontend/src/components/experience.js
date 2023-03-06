@@ -4,7 +4,7 @@ import "../styles/experience.css";
 import firstPic from "../images/man.avif";
 import secondPic from "../images/boy.avif";
 
-function Works() {
+function Experience() {
   return (
     <div className="experienceMain">
       <div className="flip-card">
@@ -71,4 +71,4 @@ function Works() {
   );
 }
 
-export default Works;
+export default Experience;
