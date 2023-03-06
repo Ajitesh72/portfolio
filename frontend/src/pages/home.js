@@ -5,6 +5,7 @@ import Navbar from "../components/navbar";
 import Hamburger from "../components/hamburger";
 import Me from "../components/me";
 import Works from "../components/works";
+import Experience from "../components/experience"
 
 function Home() {
   return (
@@ -26,7 +27,7 @@ function Home() {
         <Works />
       </div>
       <div className="four" id="experience">
-        EXPERIENCE
+        <Experience/>
       </div>
       <div className="three" id="contact">
         CONTACT

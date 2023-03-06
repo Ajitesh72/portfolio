@@ -5,7 +5,7 @@
     /* gap: 75%; */
     margin-left: 3em;
     margin-right: 3em;
-    padding-top: 10em;
+    padding-top: 6em;
 }
 .right{
     padding: 2%;
@@ -29,15 +29,42 @@ background-color: rgb(1, 125, 187);
    }
    .projDesc{
     margin-left: 2em;
-    margin-right: 2em;
+    /* margin-right: 2em; */
+    font-size: 1.1em;
+    text-align: start;
    }
    .proj-img{
+    height: 30em;
+    width:40em;
     border-radius: 3em;
    }
    .proj-img:hover{
     cursor: pointer;
 }
+@media only screen and (max-width: 760px) {
+   
+    .proj-img{
+        height: 30em;
+        width:30em;
+       }
+ }
+@media only screen and (max-width: 620px) {
+   
+    .projDesc{
+       font-size: 1.2em;
+       }
+       .break-project{
+        display: none;
+       }
+       .proj-img{
+        height: 30em;
+        width:25em;
+       }
+ }
 @media only screen and (max-width: 519px) {
+    .works{
+        padding-top: 10em;
+    }
     .proj-img{
         width: 22em;
         height: 24em;
@@ -64,7 +91,7 @@ background-color: rgb(1, 125, 187);
         margin-left: 1em;
         margin-right: 1em;
         margin-top: 0;
-        font-size:0.8em ;
+        /* font-size:0.8em ; */
        }
  }
 @media only screen and (max-width: 396px) {
@@ -76,10 +103,8 @@ background-color: rgb(1, 125, 187);
         height: 19em;
     }
     .projDesc{
-        margin-left: 1em;
-        margin-right: 1em;
-        margin-top: 0;
-        font-size:0.8em ;
+        /* font-size:0.8em ; */
+        font-size: 1em;
        }
  }
 @media only screen and (max-width: 322px) {
@@ -91,7 +116,7 @@ background-color: rgb(1, 125, 187);
         height: 19em;
     }
     .projDesc{
-        font-size:0.8em ;
+        font-size:0.9em ;
        }
  }
 @media only screen and (max-width: 302px) {
@@ -103,6 +128,19 @@ background-color: rgb(1, 125, 187);
         height: 16em;
     }
     .projDesc{
+        font-size:0.8em ;
+       }
+ }
+@media only screen and (max-width: 274px) {
+    /* .projectImage{
+        height: 15em;
+       } */
+    .proj-img{
+        width: 7em;
+        height: 10em;
+    }
+    .projDesc{
         font-size:0.7em ;
        }
  }
+

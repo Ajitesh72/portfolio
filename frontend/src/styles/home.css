@@ -1,6 +1,7 @@
 .nav{
     position: sticky;
     top: 3em;
+    z-index: 1;
     /* margin-top: 3em; */
 }
 .one{
@@ -21,5 +22,18 @@
 }
 .four{
     height: 100vh;
-    background-color: rgb(255, 7, 119);
+    /* background-color: rgb(247, 28, 72); */
+    background-color:  rgb(130, 0, 117);;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
+@media only screen and (max-width: 680px) {
+    
+    .four{
+        height: 200vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+  }

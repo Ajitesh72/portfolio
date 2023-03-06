@@ -2,6 +2,7 @@
 .hamburger{
     display: none;
     color: black;
+    z-index: 1 ;
  }
 .logo{
     height: 4.5em;

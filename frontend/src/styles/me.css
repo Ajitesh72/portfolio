@@ -79,10 +79,10 @@
    }
 }
  
-@media only screen and (max-width: 417px) {
+@media only screen and (max-width: 479px) {
     .meImg{
         height: 50vh;
-        width: 50vh;
+        width: 40vh;
         margin-top: 0.5em;
     }
  
@@ -92,6 +92,28 @@
         height: 50vh;
         width: 40vh;
         margin-top: 0.5em;
+    }
+ 
+}
+
+@media only screen and (max-width: 467px) {
+    .meImg{
+        height: 40vh;
+        width: 40vh;
+    }
+ 
+}
+@media only screen and (max-width: 340px) {
+    .meImg{
+        height: 30vh;
+        width: 30vh;
+    }
+ 
+}
+@media only screen and (max-width: 244px) {
+    .meImg{
+        height: 30vh;
+        width: 20vh;
     }
  
 }

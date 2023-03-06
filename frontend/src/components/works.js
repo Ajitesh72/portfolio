@@ -55,8 +55,9 @@ function Works() {
 
         </div>
             <div className="projectInfo">
-            <div className="projectImage" ><motion.img whileHover={{ scale: 1.2 }} src={projectList[id].image} alt=" " width={400} height={400} className="proj-img"/></div>
-            <br/>
+            <div className="projectImage" ><motion.img whileHover={{ scale: 1.2 }} src={projectList[id].image} alt=" " className="proj-img"/></div>
+            <br />
+            <br className="break-project"/>
             <div  className="projDesc">{projectList[id].description}</div>
             </div>
         </motion.div>
