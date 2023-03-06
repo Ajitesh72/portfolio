@@ -5,6 +5,7 @@ import firstPic from "../images/man.avif";
 import secondPic from "../images/boy.avif";
 
 function Experience() {
+ 
   return (
     <div className="experienceMain">
       <div className="flip-card">
@@ -18,7 +19,7 @@ function Experience() {
           <div className="flip-card-back">
             <div className="cardBack">
               <h1 className="cardBack-heading" style={{ color: "pink" }}>
-                DJS-S4DS
+              <a  href="https://www.djss4ds.in/">DJS-S4DS</a>
               </h1>
               <div>
                 S4DS is a non-profit professional association aiming to promote
@@ -39,14 +40,16 @@ function Experience() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={secondPic} alt="" className="expPic" />
-            <h3>WINNER OF HACK-CONCODE-2022</h3>
+            <h3 >WINNER OF HACK-CONCODE-2022</h3>
+            
+            
             <h5>NOV 12-13, 2022</h5>
             <div className="moreInfo">CLICK FOR MORE INFORMATION</div>
           </div>
           <div className="flip-card-back">
           <div className="cardBack">
               <h3 className="cardBack-heading" style={{ color: "pink" }}>
-                HACK CONCODE-2022
+              <a  href="https://devpost.com/software/storyteller-p3g8cb">HACK CONCODE-2022</a>
               </h3>
               <div>
                 HACK-CONCODE was a 48-hour long Hackathon held on Devpost

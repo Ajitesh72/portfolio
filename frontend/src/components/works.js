@@ -10,16 +10,19 @@ function Works() {
 
   const projectList = [
     {
-      title: "Nature's Life",
+      title: "CLIENT-CONNECT",
       image: homePic,
+      frontend:"FRONTEND:ReactJS, REDUX,FRAMER-MOTION,CSS,FIGMA",
+      backend:"BACKEND:NODE,EXPRESS,REST API, MONGODBDATABASE,STORAGE,JWT,NODEMAILER,POSTMAN",
       description:
-        "Praesent quis congue nisi. Vivamus dapibus suscipit magna at imperdiet. Mauris consectetur pharetra metus eu suscipit. Maecenas augue tortor, consequat vitae lacus id, pharetra tempor mauris. Suspendisse sodales commodo erat, non imperdiet nisl scelerisque at. Nulla porttitor gravida diam, in ornare ipsum accumsan bibendum. Morbi ut ante metus. ",
+        "A Full-Stack Web Application which connects the workers[e.g. maid,electrician] to the clients[e.g. me and you] made within 24 hr in UnscriptRookie’s Hackathon. The application also has an admin page which monitors the match"
     },
     {
-      title: "Into The Waters",
+      title: "TYPEMASTER",
       image: Pic,
+      techStack:"REACT.JS,CSS,FIREBASE AUTHENTICATION USING E-MAIL,FIRESTORE DB,FIREBASE QUERIES",
       description:
-        "Duis at tellus vitae velit aliquet varius. Fusce luctus libero et ligula tristique lobortis. Vestibulum eu placerat risus, eu semper augue. Integer at purus sit amet elit pretium viverra. Suspendisse id fringilla nibh, nec dictum urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. ",
+        "A competitive typing platform is a fully responsive Web Application where users can check their words per minute and accuracy and compare their performance to others around the world",
     },
   ];
   function changeRight() {
@@ -55,10 +58,10 @@ function Works() {
 
         </div>
             <div className="projectInfo">
-            <div className="projectImage" ><motion.img whileHover={{ scale: 1.2 }} src={projectList[id].image} alt=" " className="proj-img"/></div>
+            <div className="projectImage" ><motion.img whileHover={{ scale: 1.1 }} transition={{ duration: 1 }}src={projectList[id].image} alt=" " className="proj-img"/></div>
             <br />
             <br className="break-project"/>
-            <div  className="projDesc">{projectList[id].description}</div>
+            <div  className="projDesc">{projectList[id].description}<br/><br/>TECH STACK USED:<br/>{projectList[id].techStack}{projectList[id].frontend}<br/>{projectList[id].backend}</div>
             </div>
         </motion.div>
         <div className="right" onClick={changeRight}>

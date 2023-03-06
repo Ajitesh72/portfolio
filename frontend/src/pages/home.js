@@ -31,10 +31,10 @@ function Home() {
       <div className="four" id="experience">
         <Experience/>
       </div>
-      <div className="three" id="contact">
+      {/* <div className="three" id="contact">
         <Contact/>
-      </div>
-      <div className="five" >
+      </div> */}
+      <div className="five" id="contact">
         <Footer/>
       </div>
     </motion.div>
