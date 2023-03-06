@@ -5,6 +5,7 @@ import firstPic from "../images/man.avif";
 import secondPic from "../images/boy.avif";
 import { FaInstagramSquare,FaGithubSquare,FaLinkedin,FaEnvelopeSquare} from "react-icons/fa";
 import { GoLocation} from "react-icons/go";
+import { AiFillHeart} from "react-icons/ai";
 
 function Footer() {
   return (
@@ -17,7 +18,7 @@ function Footer() {
           <br className="bodyBreak"/>
           <br className="bodyBreak"/>
           <br/>
-          <li>I Develop things with </li>
+          <li>I Develop things with <AiFillHeart color="red" size={15}/></li>
           <br/>
           <li>Design & Development</li>
           <br/>
