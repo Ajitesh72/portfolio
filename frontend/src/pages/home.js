@@ -5,39 +5,63 @@ import Navbar from "../components/navbar";
 import Hamburger from "../components/hamburger";
 import Me from "../components/me";
 import Works from "../components/works";
-import Experience from "../components/experience"
+import Experience from "../components/experience";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
 
 function Home() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 2 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 3 }}
-      className="home"
-    >
-      <div className="nav">
+    <div>
+      <motion.div
+       initial={{ opacity: 0 }}
+       whileInView={{ opacity: 1 }}
+       transition={{ duration: 1, delay: 1 }}
+       viewport={{ once: true }}
+        className="nav"
+      >
         <Navbar />
         <Hamburger />
-      </div>
-      <div className="one" id="why-me">
+      </motion.div>
+      <motion.div
+       initial={{ opacity: 0 }}
+       whileInView={{ opacity: 1 }}
+       transition={{ duration: 2, delay: 1 }}
+       viewport={{ once: true }}
+        className="one"
+        id="why-me"
+      >
         <Me />
-      </div>
-      <div className="two" id="my-work">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 2, delay: 1 }}
+        viewport={{ once: true }}
+        className="two"
+        id="my-work"
+      >
         <Works />
-      </div>
-      <div className="four" id="experience">
-        <Experience/>
-      </div>
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 2, delay: 1 }}
+        viewport={{ once: true }}
+        className="four"
+        id="experience"
+      >
+        <Experience />
+      </motion.div>
       {/* <div className="three" id="contact">
         <Contact/>
       </div> */}
-      <div className="five" id="contact">
-        <Footer/>
-      </div>
-    </motion.div>
+      <motion.div initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 1.5, delay: 1 }}
+              viewport={{ once: true }} className="five" id="contact">
+        <Footer />
+      </motion.div>
+    </div>
   );
 }
 
